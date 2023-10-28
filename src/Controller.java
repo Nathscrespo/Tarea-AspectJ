@@ -2,7 +2,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.layout.VBox;
 
-public class Controller implements ColorChangeObserver {
+public class Controller implements cambiocolor {
 
     @FXML
     private Button BtAmarillo;
