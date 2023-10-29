@@ -25,5 +25,5 @@ public class AppObserver extends Application {
 			
 		}
     }
-    ///comentario2
+ 
 }

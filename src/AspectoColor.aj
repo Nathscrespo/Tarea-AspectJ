@@ -12,9 +12,9 @@ public aspect AspectoColor {
 	}
 	private void showNotification(Color color) {
         Alert alert = new Alert(AlertType.INFORMATION);
-        alert.setTitle("Cambio de Color - FUNCIÓN ADICIONAL");
+        alert.setTitle("Cambio de Color");
         alert.setHeaderText("Nuevo color seleccionado");
-        alert.setContentText("El color actual es: " + color);
+        alert.setContentText("El color actual es: " + color.toString());
         alert.showAndWait();
     }
 }
